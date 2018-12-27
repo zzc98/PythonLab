@@ -1,0 +1,25 @@
+Attribute Information:
+Class Values:
+
+unacc, acc, good, vgood
+
+Attributes:
+
+buying: vhigh, high, med, low.
+maint: vhigh, high, med, low.
+doors: 2, 3, 4, 5more.
+persons: 2, 4, more.
+lug_boot: small, med, big.
+safety: low, med, high.
+
+
+Class Values（分类依据）
+unacc, acc, good, vgood
+
+实验说明：
+1 对car.data中的原始数据进行必要的特征选择和预处理:把各属性转换为数值型
+  清除原数据中不干净的数据，包括去除噪音数据，填充缺省值
+2 以car.data中数据为样本，以Class Values为分类依据，建立神经网络分类模型
+3 对训练和测试样本按以下比例分别进行构建分类器：分类器1：(4:1)，分类器2：3:1,  分类器3：9:1
+4 显示3中各分类器的参数
+5 predict data
